@@ -1,5 +1,5 @@
 class Procedure:
-    def __init__(self,procName,opDate,Doc,cost,patID):
+    def __init__(self, procName, opDate, Doc, cost, patID):
         self.__procedurename = procName
         self.__dateOfProcedure = opDate
         self.__Practitioner = Doc
@@ -8,7 +8,7 @@ class Procedure:
 
     def get_patientID(self):
         return self.__patID
-        
+
     def get_procName(self):
         return self.__procedurename
 
